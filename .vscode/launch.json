@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PathFinderApplication",
+            "request": "launch",
+            "mainClass": "com.roadrunner.pathfinder.PathFinderApplication",
+            "projectName": "pathfinder"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DemoApplication",
+            "request": "launch",
+            "mainClass": "com.roadrunner.pathfinder.DemoApplication",
+            "projectName": "pathfinder"
+        }
+    ]
+}
