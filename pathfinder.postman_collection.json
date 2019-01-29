@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "7b47cdfb-82d4-4776-a0b0-4e90a076281b",
+		"name": "pathfinder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "pathfinder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/connected?origin=Albany&destination=Philadelphia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"connected"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "Albany"
+						},
+						{
+							"key": "destination",
+							"value": "Philadelphia"
+						}
+					]
+				},
+				"description": "Calling pathfinder service"
+			},
+			"response": []
+		},
+		{
+			"name": "\nhttp://localhost:8080/connected?origin=Boston&destination=Philadelphia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/connected?origin=Boston&destination=Philadelphia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"connected"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "Boston"
+						},
+						{
+							"key": "destination",
+							"value": "Philadelphia"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "\nhttp://localhost:8080/connected?origin=Boston&destination=Newark",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/connected?origin=Boston&destination=Newark",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"connected"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "Boston"
+						},
+						{
+							"key": "destination",
+							"value": "Newark"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
